@@ -16,7 +16,7 @@ An active-passive setup, also known as a failover or standby configuration, invo
 #### Integration of Load Balancer with Active-Passive Setup:
 In an active-passive setup, the load balancer plays a crucial role in routing traffic to the active resources while monitoring their health and availability. If the active resources encounter a failure or become unresponsive, the load balancer detects this condition through health checks or monitoring probes and automatically redirects traffic to the passive resources, which assume the active role. This failover process is transparent to end-users, ensuring continuous service availability and minimal disruption.
 
-####In a Primary-Replica (Master-Slave) cluster,
+#### In a Primary-Replica (Master-Slave) cluster,
  the primary node handles all write requests, updating its data and then replicating changes to replica nodes. Replica nodes maintain a copy of the data but only handle read queries, relying on replication from the primary node. The primary node is powerful, handling writes and maintaining data integrity, while replica nodes are simpler, serving as backups and managing read-heavy workloads. This setup ensures high availability, scalability, and fault tolerance for database systems.
 
 
