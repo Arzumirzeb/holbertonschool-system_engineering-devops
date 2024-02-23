@@ -1,6 +1,8 @@
 # 0. Simple Web Stack
 
 
+<p align="center"><img src="https://github.com/Arzumirzeb/holbertonschool-system_engineering-devops/blob/master/web_infrastructure_design/task_0.png"></p>
+
 ## Some specifics about this infrastructure:
 
 
