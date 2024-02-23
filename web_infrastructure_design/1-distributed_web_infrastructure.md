@@ -20,5 +20,5 @@ In an active-passive setup, the load balancer plays a crucial role in routing tr
  the primary node handles all write requests, updating its data and then replicating changes to replica nodes. Replica nodes maintain a copy of the data but only handle read queries, relying on replication from the primary node. The primary node is powerful, handling writes and maintaining data integrity, while replica nodes are simpler, serving as backups and managing read-heavy workloads. This setup ensures high availability, scalability, and fault tolerance for database systems.
 
 
-## what the issues are with this infrastructure:
+## What the issues are with this infrastructure:
 In a Primary-Replica cluster, the primary node is a potential single point of failure. Firewall protection is crucial for security, preventing unauthorized access and attacks. HTTPS ensures secure communication, protecting data from interception. Monitoring tools are essential for detecting issues early, ensuring stability, security, and performance.
